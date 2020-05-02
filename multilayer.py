@@ -20,7 +20,6 @@ weights_hidden_to_output = np.random.normal(0, scale=0.1, size=(N_hidden, N_outp
 
 
 # TODO: Make a forward pass through the network
-print(X.shape)
 print(weights_input_to_hidden.shape)
 hidden_layer_in = np.dot(X, weights_input_to_hidden)
 hidden_layer_out = sigmoid(hidden_layer_in)
